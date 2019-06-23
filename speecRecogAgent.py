@@ -63,7 +63,7 @@ def main():
     readyMsg = "I'm listening, you can speak :)"
     confirmMsg = "Message received. I'm processing..."
     showTextMsg = "You told: "
-    errorMsg = "Sorry, I did'n understand :("
+    errorMsg = "Sorry, I didn't understand :("
     while True:
         recordedText = listenToMicrophone( language='en-US', listeningTime=phraseTime,
                                            readyMsg=readyMsg, confirmMsg=confirmMsg,
